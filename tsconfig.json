@@ -1,0 +1,28 @@
+{
+    "compilerOptions": {
+        "outDir": "lib",
+        "rootDir": "src",
+        "allowJs": true,
+
+        "strict": true,
+        "forceConsistentCasingInFileNames": true,
+        "jsx": "react",
+        "declaration": true,
+        "sourceMap": true,
+        "declarationMap": true,
+        "inlineSources": true,
+        "experimentalDecorators": true,
+        "noUnusedLocals": true,
+        "types": ["heft-jest"],
+        "esModuleInterop": true,
+        "allowSyntheticDefaultImports": true,
+        "skipLibCheck": true,
+
+        "module": "CommonJS",
+        "moduleResolution": "node",
+        "target": "es6",
+        "lib": ["dom", "dom.iterable", "esnext"]
+    },
+    "include": ["src/**/*.ts", "src/**/*.tsx"],
+    "exclude": ["node_modules", "lib"]
+}
